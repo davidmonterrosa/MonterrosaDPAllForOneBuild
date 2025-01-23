@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme {
+    --color-darkCharcoal-500: #303030;
+}
