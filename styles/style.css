@@ -6,3 +6,213 @@
 h1 {
     font-family: "Press_Start_2P", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.text-display {
+    font-size: 45px;
+}
+
+.font-size-title {
+    font-size: 2.813rem;
+}
+
+.font-page-heading {
+    font-size: 1.25rem;
+}
+
+.result-sum {
+    border-radius: 15px;
+    width: 275px;
+    height: 125px;
+    font-size: 24px;
+}
+
+.font-size-60 {
+    font-size: 60px;
+}
+
+.screen-glow {
+    box-shadow: 0 0 20px #00FFFF32 ;
+}
+
+.grid-cols-4 {
+    display: grid;
+    grid-template-columns: 300px;
+}
+
+.pb-12 {
+    padding-bottom: 48px;
+}
+
+.bg-darkNavy-500 {
+    background-color: #111828;
+}
+
+.bg-adding2numbers {
+    background-color: #F9A159;
+}
+
+.bg-askingquestions {
+    background-color: #ED885C;
+}
+
+.bg-greaterorless {
+    background-color: #E03759;
+}
+
+.bg- {
+    background-color: #F9A159;
+}
+
+.bg- {
+    background-color: #F9A159;
+}
+
+.bg- {
+    background-color: #F9A159;
+}
+
+.bg- {
+    background-color: #F9A159;
+}
+
+.bg- {
+    background-color: #F9A159;
+}
+
+.bg- {
+    background-color: #F9A159;
+}
+
+.bg- {
+    background-color: #F9A159;
+}
+
+.bg-chinese-blue {
+    background-color: #45569D !important;
+}
+
+.bg-aqua-blue {
+    background-color: #3AB8CB;
+}
+
+.rounded-2xl {
+    border-radius: 15px;
+}
+
+.aspect-\[12\/7\] {
+    aspect-ratio: 12 / 7;
+}
+
+.gap-y-8 {
+    column-gap: 2rem;
+}
+
+.input-style {
+    color: white !important;
+    border-radius: 15px !important;
+    border: 3px solid black !important;
+}
+
+
+.icon-hover:hover {
+    /* filter: brightness(0.25); */
+    cursor: pointer;
+    color: white;
+}
+
+.button-name {
+    border-radius: 15px;
+    padding: 57.5px 50px;
+    font-family: "Press_Start_2P";
+    font-size: 1.25rem;
+    color: transparent;
+}
+.button-name:hover {
+    color: white;
+    backdrop-filter: brightness(0.25);
+}
+
+#adding2NumbersBtn {
+    background-image: url(../assets/icons/Adding2Numbers.png);
+    background-size: cover;
+}
+#askingQuestionsBtn {
+    background-image: url(../assets/icons/AskingQuestions.png);
+    background-size: cover;
+}
+#greaterOrLessBtn {
+    background-image: url(../assets/icons/GuessIt.png);
+    background-size: cover;
+}
+#helloWorldBtn {
+    background-image: url(../assets/icons/HelloWorld.png);
+    background-size: cover;
+}
+#madLibBtn {
+    background-image: url(../assets/icons/MadLib.png);
+    background-size: cover;
+}
+#magic8BallBtn {
+    background-image: url(../assets/icons/Magic8Ball.png);
+    background-size: cover;
+}
+#oddOrEvenBtn {
+    background-image: url(../assets/icons/OddOrEven.png);
+    background-size: cover;
+}
+#restaurantPickerBtn {
+    background-image: url(../assets/icons/RestaurantPicker.png);
+    background-size: cover;
+}
+#reverseItAlphanumericBtn {
+    background-image: url(../assets/icons/ReverseItAlphaNumeric.png);
+    background-size: cover;
+}
+#reverseItNumbersBtn {
+    background-image: url(../assets/icons/ReverseItNumbers.png);
+    background-size: cover;
+}
+
+
+/* Desktop */
+@media (min-width: 768px) {
+    .text-display {
+        font-size: 60px;
+    }
+
+    .grid-cols-4 {
+        display: grid;
+        grid-template-columns: repeat(4, 300px);
+    }
+
+    .col-2 {
+        grid-column-start: 2;
+    }
+    
+    .col-3 {
+        grid-column-start: 3;
+    }
+
+    .page-heading-area {
+        background-image: url(../assets/icons/Adding2Numbers.png);
+        background-size: cover;
+        border-radius: 15px;
+        aspect-ratio: 12 / 7;
+        width: 480px;
+    }
+    
+    .font-page-heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 68px 0;
+        font-size: 48px;
+        backdrop-filter: brightness(0.25);
+    }
+
+    .bg-adding2numbers {
+        background-color: #111828;
+    }
+    
+
+}
