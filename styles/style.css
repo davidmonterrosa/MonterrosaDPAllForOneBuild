@@ -19,7 +19,21 @@ h1 {
     font-size: 1.25rem;
 }
 
+.submit-button-style {
+    font-family: "Press_Start_2P", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 275px;
+    height: 125px;
+    font-size: 24px;
+}
+
 .result-sum {
+    font-family: "Press_Start_2P", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #7C439B;
+    color: white;
+    border: 3px solid black;
     border-radius: 15px;
     width: 275px;
     height: 125px;
@@ -51,6 +65,10 @@ h1 {
     background-color: #F9A159;
 }
 
+.pink-submit {
+    background-color: #D94886;
+}
+
 .bg-askingquestions {
     background-color: #ED885C;
 }
@@ -59,32 +77,28 @@ h1 {
     background-color: #E03759;
 }
 
-.bg- {
-    background-color: #F9A159;
+.bg-helloworld {
+    background-color: #E24662;
 }
 
-.bg- {
-    background-color: #F9A159;
+.bg-magic8ball {
+    background-color: #DC3570;
 }
 
-.bg- {
-    background-color: #F9A159;
+.bg-oddoralpha {
+    background-color: #DC4988;
 }
 
-.bg- {
-    background-color: #F9A159;
+.bg-madlib {
+    background-color: #E64279;
 }
 
-.bg- {
-    background-color: #F9A159;
+.bg-restaurantpicker {
+    background-color: #D758A1;
 }
 
-.bg- {
-    background-color: #F9A159;
-}
-
-.bg- {
-    background-color: #F9A159;
+.bg-reversenumber {
+    background-color: #3395AB;
 }
 
 .bg-chinese-blue {
@@ -107,7 +121,14 @@ h1 {
     column-gap: 2rem;
 }
 
+.center-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .input-style {
+    font-family: "Press_Start_2P", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white !important;
     border-radius: 15px !important;
     border: 3px solid black !important;
@@ -130,6 +151,11 @@ h1 {
 .button-name:hover {
     color: white;
     backdrop-filter: brightness(0.25);
+}
+
+.home-btn-style {
+    background-color: #D9D9D9;
+    border-radius: 50%;
 }
 
 #adding2NumbersBtn {
@@ -193,7 +219,7 @@ h1 {
         grid-column-start: 3;
     }
 
-    .page-heading-area {
+    .add2num-heading-area {
         background-image: url(../assets/icons/Adding2Numbers.png);
         background-size: cover;
         border-radius: 15px;
@@ -211,6 +237,38 @@ h1 {
     }
 
     .bg-adding2numbers {
+        background-color: #111828;
+    }
+
+    .bg-askingquestions {
+        background-color: #111828;
+    }
+    
+    .bg-greaterorless {
+        background-color: #111828;
+    }
+    
+    .bg-helloworld {
+        background-color: #111828;
+    }
+    
+    .bg-magic8ball {
+        background-color: #111828;
+    }
+    
+    .bg-oddoralpha {
+        background-color: #111828;
+    }
+    
+    .bg-madlib {
+        background-color: #111828;
+    }
+    
+    .bg-restaurantpicker {
+        background-color: #D758A1;
+    }
+    
+    .bg-reversenumber {
         background-color: #111828;
     }
     

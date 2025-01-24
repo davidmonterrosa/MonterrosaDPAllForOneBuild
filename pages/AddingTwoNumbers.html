@@ -12,10 +12,10 @@
 <body class="bg-darkCharcoal-500">
     <main class="bg-black screen-glow rounded-2xl flex justify-center my-8 mx-4 p-6">
         <section class="bg-adding2numbers rounded-2xl px-3 pt-10 pb-12">
-            <div class="page-heading-area">
+            <div class="add2num-heading-area">
                 <h1 class="text-center text-white font-page-heading mb-8 font-size-title">Adding 2 Numbers</h1>
             </div>
-            <section class="flex flex-col">
+            <section class="flex flex-col md:flex-row">
                 <input id="firstNumberInput" class="input-style bg-chinese-blue" type="text" placeholder="First Number">
 
                 <h1 class="text-white text-center font-size-60">+</h1>
@@ -24,11 +24,17 @@
 
                 <h1 class="text-white text-center font-size-60">=</h1>
 
-                <div>
-                    <p class="result-sum">Sum</p>
+                <div class="center-text">
+                    <p class="result-sum text-center">Sum</p>
                 </div>
 
-                <button id=""></button>
+                <div class="center-text">
+                    <button id="submitSumBtn" class="submit-button-style pink-submit">Submit</button>
+                </div>
+
+                <div>
+                    <button class="home-btn-style">&lt;&lt;</button>
+                </div>
 
 
             </section>
