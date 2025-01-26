@@ -17,14 +17,14 @@
                     <h1 class="text-center text-white font-page-heading mb-8 font-size-title">Magic 8 Ball</h1>
                 </div>
             </div>
-            <section class="grid grid-cols-[326px] xl:grid-cols-[repeat(3,300px)] gap-x-32">
+            <section class="grid grid-cols-[326px] gap-y-8 xl:grid-cols-[repeat(3,auto)] xl:gap-x-32 xl:items-center xl:mt-20 xl:mx-12">
                 <div class="flex flex-col items-center">
                     <h1 class="text-black text-center text-bubble-inner text-bubble mx-2">Ask a question!</h1>
-                    <input id="firstNumberInput" class="input-style bg-chinese-blue ml-3" type="text" placeholder="First Number">
+                    <input id="firstNumberInput" class="input-style text-white bg-chinese-blue ml-3" type="text" placeholder="Question">
                 </div>
                 
-                <div class="flex flex-col justify-center items-center eight-ball">
-                    <p id="resultText" class="text-center text-xl ">Hello</p>
+                <div class="flex flex-col justify-center items-center  eight-ball">
+                    <p id="resultText" class="text-center text-xl ">The Magic 8 Ball Says:</p>
                 </div>
 
                 <div class="flex flex-col justify-center items-center">
@@ -33,7 +33,7 @@
 
             </section>
 
-            <div class="flex flex-col justify-center items-center">
+            <div class="flex flex-col justify-center items-center mt-12">
                 <a href="../index.html">
                     <button id="backToHomeBtn" class="home-btn-style"><img src="../assets/icons/Back To Home.png" alt="Back to home button"></button>
                 </a>

@@ -12,32 +12,32 @@
 <body class="bg-darkCharcoal-500 flex justify-center">
     <main class="bg-black screen-glow rounded-2xl flex justify-center my-8 mx-4 p-6">
         <section class="bg-greaterorless rounded-2xl px-3 pt-10 pb-12">
-            <div class="flex justify-center">
+            <div class="flex justify-center ">
                 <div class="greaterorless-heading-area">
                     <h1 class="text-center text-white font-page-heading mb-8 font-size-title">Greater or Less</h1>
                 </div>
             </div>
-            <section class="grid grid-cols-[326px] xl:grid-cols-4 gap-x-7">
-                <div class="flex flex-col items-center">
-                    <h1 class="text-white text-center text-xl">Enter two numbers and click submit to compare:</h1>
-                    <input id="firstNumberInput" class="input-style bg-mandarin" type="text" placeholder="First Number">
+            <section class="grid grid-cols-[326px] gap-y-8 xl:grid-cols-4  xl:gap-x-8 xl:mt-20">
+                <div class="flex flex-col items-center ">
+                    <h1 class="text-white text-center text-xl mb-8">Enter two numbers and click submit to compare:</h1>
+                    <input id="firstNumberInput" class="input-style text-white bg-mandarin" type="text" placeholder="First Number">
                 </div>
 
-                <div class="flex flex-col items-center">
-                    <input id="secondNumberInput" class="input-style bg-aqua-blue" type="text" placeholder="Second Number">
+                <div class="flex flex-col items-center xl:justify-center xl:mt-24">
+                    <input id="secondNumberInput" class="input-style text-white bg-aqua-blue" type="text" placeholder="Second Number">
                 </div>
                 
-                <div class="result-compare flex justify-center items-center ml-6.5">
-                    <p id="resultText" class=" text-center">Sum</p>
+                <div class="result-compare flex justify-center items-center ml-6.5 xl:ml-0">
+                    <p id="resultText" class=" text-center">{First Number} is greater / less / equal to {Second Number}</p>
                 </div>
 
-                <div class="flex flex-col items-center">
+                <div class="flex flex-col items-center xl:justify-center ">
                     <button id="submitSumBtn" class="submit-button-style blue-submit">Submit</button>
                 </div>
 
             </section>
 
-            <div class="flex flex-col items-center">
+            <div class="flex flex-col items-center mt-12">
                 <a href="../index.html">
                     <button id="backToHomeBtn" class="home-btn-style"><img src="../assets/icons/Back To Home.png" alt="Back to home button"></button>
                 </a>

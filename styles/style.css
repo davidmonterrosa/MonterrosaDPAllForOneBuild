@@ -348,6 +348,7 @@ h1 {
     .add2num-heading-area {
         background-image: url(../assets/icons/Adding2Numbers.png);
         background-size: cover;
+        background-position: center;
         border-radius: 15px;
         aspect-ratio: 12 / 7;
         width: 480px;
@@ -357,6 +358,7 @@ h1 {
     .askingquestions-heading-area {
         background-image: url(../assets/icons/AskingQuestions.png);
         background-size: cover;
+        background-position: center;
         border-radius: 15px;
         aspect-ratio: 12 / 7;
         width: 480px;
@@ -366,6 +368,7 @@ h1 {
     .greaterorless-heading-area {
         background-image: url(../assets/icons/GuessIt.png);
         background-size: cover;
+        background-position: center;
         border-radius: 15px;
         aspect-ratio: 12 / 7;
         width: 480px;
@@ -375,6 +378,7 @@ h1 {
     .helloworld-heading-area {
         background-image: url(../assets/icons/HelloWorld.png);
         background-size: cover;
+        background-position: center;
         border-radius: 15px;
         aspect-ratio: 12 / 7;
         width: 480px;
@@ -384,6 +388,7 @@ h1 {
     .madlib-heading-area {
         background-image: url(../assets/icons/MadLib.png);
         background-size: cover;
+        background-position: center;
         border-radius: 15px;
         aspect-ratio: 12 / 7;
         width: 480px;
@@ -393,6 +398,7 @@ h1 {
     .magic8ball-heading-area {
         background-image: url(../assets/icons/Magic8Ball.png);
         background-size: cover;
+        background-position: center;
         border-radius: 15px;
         aspect-ratio: 12 / 7;
         width: 480px;
@@ -402,6 +408,7 @@ h1 {
     .oddoreven-heading-area {
         background-image: url(../assets/icons/OddOrEven.png);
         background-size: cover;
+        background-position: center;
         border-radius: 15px;
         aspect-ratio: 12 / 7;
         width: 480px;
@@ -411,6 +418,7 @@ h1 {
     .restaurantpicker-heading-area {
         background-image: url(../assets/icons/RestaurantPicker.png);
         background-size: cover;
+        background-position: center;
         border-radius: 15px;
         aspect-ratio: 12 / 7;
         width: 480px;
@@ -421,6 +429,7 @@ h1 {
         background-image: url(../assets/icons/ReverseItAlphaNumeric.png);
         font-size: 2.25rem;
         background-size: cover;
+        background-position: center;
         border-radius: 15px;
         aspect-ratio: 12 / 7;
         width: 480px;
@@ -430,6 +439,7 @@ h1 {
     .reverseitnumbers-heading-area {
         background-image: url(../assets/icons/ReverseItNumbers.png);
         background-size: cover;
+        background-position: center;
         border-radius: 15px;
         aspect-ratio: 12 / 7;
         width: 480px;
