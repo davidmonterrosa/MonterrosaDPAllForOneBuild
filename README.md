@@ -16,5 +16,5 @@ The "All for One" Assignment is a comprehensive project that consolidates the mi
 + mm/dd/yyyy - DM - short description
 - 01/23/2025 - DM - Created git repository.
 
-Peer Reviewed By: 
-> Comments: 
+Peer Reviewed By: Tanush Kumar
+> Comments: Overall i love your design looks amazing only a few things need to be changed first on hello world it says first number in the input area , on restauarant picker all lower case inputs dont work i have to type it out witha a capital maybe a .tolower() would fix that, again it says first number in the input field, on reverse it alphanumeric i think you should include "or words" it would let the user know that you can also reverse strings. besides those quick fixes you did great i love your responsiveness good job.
