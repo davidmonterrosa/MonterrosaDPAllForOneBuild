@@ -19,6 +19,14 @@ h1 {
     font-size: 1.25rem;
 }
 
+.font-page-heading-smaller {
+    font-size: 1.25rem;
+}
+
+.input-style::placeholder {
+    color: white;
+}
+
 .submit-button-style {
     font-family: "Press_Start_2P", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
@@ -29,16 +37,77 @@ h1 {
     font-size: 24px;
 }
 
-.result-sum {
+.text-bubble {
+    background-image: url(../assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 275px;
+    max-height: 95px;
+    padding-bottom: 3.5rem;
+    padding-top: 0.35rem;
+    line-height: 1.5rem;
+}
+
+
+.text-bubble-inner {
+    font-size: 1.25rem;
+}
+
+.result-sum-text {
     font-family: "Press_Start_2P", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.result-sum {
     background-color: #7C439B;
     color: white;
     border: 3px solid black;
     border-radius: 15px;
     width: 275px;
     height: 125px;
-    font-size: 24px;
 }
+
+.result-compare {
+    font-family: "Press_Start_2P", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #7C439B;
+    color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 275px;
+    height: 200px;
+}
+
+.result-orange {
+    font-family: "Press_Start_2P", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #F9914B;
+    color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 275px;
+    height: 200px;
+}
+
+.result-story {
+    font-family: "Press_Start_2P", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #7C439B;
+    color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 275px;
+    overflow-x: scroll;
+    /* scrollbar-color: #7C439B; */
+    line-break: normal;
+}
+
+.eight-ball {
+    font-family: "Press_Start_2P", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background-color: black;
+    border: 3px solid #346BAF;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    width: 330px;
+}
+
 
 .font-size-60 {
     font-size: 60px;
@@ -67,6 +136,14 @@ h1 {
 
 .pink-submit {
     background-color: #D94886;
+}
+
+.blue-submit {
+    background-color: #407DBD;
+}
+
+.purple-submit {
+    background-color: #7C439B;
 }
 
 .bg-askingquestions {
@@ -106,32 +183,36 @@ h1 {
 }
 
 .bg-aqua-blue {
-    background-color: #3AB8CB;
+    background-color: #3AB8CB !important;
 }
 
-.rounded-2xl {
-    border-radius: 15px;
+.bg-pearly-purple {
+    background-color: #A96AAD !important;
 }
 
-.aspect-\[12\/7\] {
-    aspect-ratio: 12 / 7;
+.bg-twilight-lavender {
+    background-color: #8B3972 !important;
 }
 
-.gap-y-8 {
-    column-gap: 2rem;
+.bg-mandarin {
+    background-color: #F0804A !important;
 }
 
-.center-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.bg-moonstone {
+    background-color: #3CA2C4 !important;
 }
+
+.bg-telemagenta {
+    background-color: #D0336C !important;
+}
+
 
 .input-style {
     font-family: "Press_Start_2P", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white !important;
     border-radius: 15px !important;
     border: 3px solid black !important;
+    max-width: 275px;
+    max-height: 50px;
 }
 
 
@@ -143,9 +224,10 @@ h1 {
 
 .button-name {
     border-radius: 15px;
-    padding: 57.5px 50px;
     font-family: "Press_Start_2P";
     font-size: 1.25rem;
+    min-height: 100%;
+    padding-block-start: 65px;
     color: transparent;
 }
 .button-name:hover {
@@ -201,7 +283,7 @@ h1 {
 
 
 /* Desktop */
-@media (min-width: 768px) {
+@media (min-width: 1280px) {
     .text-display {
         font-size: 60px;
     }
@@ -211,13 +293,57 @@ h1 {
         grid-template-columns: repeat(4, 300px);
     }
 
-    .col-2 {
-        grid-column-start: 2;
+
+    .result-story {
+        font-family: "Press_Start_2P", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: #7C439B;
+        color: white;
+        border: 3px solid black;
+        width:100%;
+        border-radius: 15px;
+        line-break: normal;
     }
-    
-    .col-3 {
-        grid-column-start: 3;
+
+    #adding2NumbersBtn {
+        background-image: url(../assets/icons/Adding2Numbers.png);
+        background-size: cover;
     }
+    #askingQuestionsBtn {
+        background-image: url(../assets/icons/AskingQuestions.png);
+        background-size: cover;
+    }
+    #greaterOrLessBtn {
+        background-image: url(../assets/icons/GuessIt.png);
+        background-size: cover;
+    }
+    #helloWorldBtn {
+        background-image: url(../assets/icons/HelloWorld.png);
+        background-size: cover;
+    }
+    #madLibBtn {
+        background-image: url(../assets/icons/MadLib.png);
+        background-size: cover;
+    }
+    #magic8BallBtn {
+        background-image: url(../assets/icons/Magic8Ball.png);
+        background-size: cover;
+    }
+    #oddOrEvenBtn {
+        background-image: url(../assets/icons/OddOrEven.png);
+        background-size: cover;
+    }
+    #restaurantPickerBtn {
+        background-image: url(../assets/icons/RestaurantPicker.png);
+        background-size: cover;
+    }
+    #reverseItAlphanumericBtn {
+        background-image: url(../assets/icons/ReverseItAlphaNumeric.png);
+        background-size: cover;
+    }
+    #reverseItNumbersBtn {
+        background-image: url(../assets/icons/ReverseItNumbers.png);
+        background-size: cover;
+    }    
 
     .add2num-heading-area {
         background-image: url(../assets/icons/Adding2Numbers.png);
@@ -225,6 +351,89 @@ h1 {
         border-radius: 15px;
         aspect-ratio: 12 / 7;
         width: 480px;
+        height: 280px;
+    }
+
+    .askingquestions-heading-area {
+        background-image: url(../assets/icons/AskingQuestions.png);
+        background-size: cover;
+        border-radius: 15px;
+        aspect-ratio: 12 / 7;
+        width: 480px;
+        height: 280px;
+    }
+    
+    .greaterorless-heading-area {
+        background-image: url(../assets/icons/GuessIt.png);
+        background-size: cover;
+        border-radius: 15px;
+        aspect-ratio: 12 / 7;
+        width: 480px;
+        height: 280px;
+    }
+    
+    .helloworld-heading-area {
+        background-image: url(../assets/icons/HelloWorld.png);
+        background-size: cover;
+        border-radius: 15px;
+        aspect-ratio: 12 / 7;
+        width: 480px;
+        height: 280px;
+    }
+    
+    .madlib-heading-area {
+        background-image: url(../assets/icons/MadLib.png);
+        background-size: cover;
+        border-radius: 15px;
+        aspect-ratio: 12 / 7;
+        width: 480px;
+        height: 280px;
+    }
+    
+    .magic8ball-heading-area {
+        background-image: url(../assets/icons/Magic8Ball.png);
+        background-size: cover;
+        border-radius: 15px;
+        aspect-ratio: 12 / 7;
+        width: 480px;
+        height: 280px;
+    }
+    
+    .oddoreven-heading-area {
+        background-image: url(../assets/icons/OddOrEven.png);
+        background-size: cover;
+        border-radius: 15px;
+        aspect-ratio: 12 / 7;
+        width: 480px;
+        height: 280px;
+    }
+    
+    .restaurantpicker-heading-area {
+        background-image: url(../assets/icons/RestaurantPicker.png);
+        background-size: cover;
+        border-radius: 15px;
+        aspect-ratio: 12 / 7;
+        width: 480px;
+        height: 280px;
+    }
+    
+    .reverseitalphanumeric-heading-area {
+        background-image: url(../assets/icons/ReverseItAlphaNumeric.png);
+        font-size: 2.25rem;
+        background-size: cover;
+        border-radius: 15px;
+        aspect-ratio: 12 / 7;
+        width: 480px;
+        height: 280px;
+    }
+    
+    .reverseitnumbers-heading-area {
+        background-image: url(../assets/icons/ReverseItNumbers.png);
+        background-size: cover;
+        border-radius: 15px;
+        aspect-ratio: 12 / 7;
+        width: 480px;
+        height: 280px;
     }
     
     .font-page-heading {
@@ -232,8 +441,20 @@ h1 {
         align-items: center;
         justify-content: center;
         padding: 68px 0;
+        min-height: 100%;
         font-size: 48px;
         backdrop-filter: brightness(0.25);
+        border-radius: 15px;
+    }
+
+    .font-page-heading-smaller {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 86px 0;
+        font-size: 2.25rem;
+        backdrop-filter: brightness(0.25);
+        border-radius: 15px;
     }
 
     .bg-adding2numbers {
@@ -265,7 +486,7 @@ h1 {
     }
     
     .bg-restaurantpicker {
-        background-color: #D758A1;
+        background-color: #111828;
     }
     
     .bg-reversenumber {

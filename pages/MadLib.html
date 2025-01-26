@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mad Lib</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+
+</head>
+<body class="bg-darkCharcoal-500 flex justify-center">
+    <main class="bg-black screen-glow rounded-2xl flex justify-center my-8 mx-4 p-6">
+        <section class="bg-madlib rounded-2xl px-3 pt-10 pb-12">
+            <div class="flex justify-center">
+                <div class="madlib-heading-area">
+                    <h1 class="text-center text-white font-page-heading mb-8 ">Mad Lib</h1>
+                </div>
+            </div>
+            <section class="grid grid-cols-[326px] xl:grid-cols-4 xl:grid-rows-5 gap-x-7">
+                <div class="flex flex-col items-center my-5">
+                    <h1 class="text-black text-center text-bubble-inner text-bubble">Victim Name</h1>
+                    <input id="victimNameField" class="input-style bg-pearly-purple" type="text" placeholder="Name">
+                </div>
+
+                <div class="flex flex-col items-center my-5">
+                    <h1 class="text-black text-center text-bubble-inner text-bubble">Task Name</h1>
+                    <input id="taskNameField" class="input-style bg-twilight-lavender " type="text" placeholder="Task Name">
+                </div>
+                
+                <div class="flex flex-col items-center my-5">
+                    <h1 class="text-black text-center text-bubble-inner text-bubble">Rival Name</h1>
+                    <input id="rivalNameField" class="input-style bg-pearly-purple " type="text" placeholder="Rival">
+                </div>
+                
+                <div class="flex flex-col items-center my-5">
+                    <h1 class="text-black text-center text-bubble-inner text-bubble">Animal Count</h1>
+                    <input id="animalCountField" class="input-style bg-twilight-lavender " type="text" placeholder="###">
+                </div>
+                
+                <div class="flex flex-col items-center my-5">
+                    <h1 class="text-black text-center text-bubble-inner text-bubble">Adjective</h1>
+                    <input id="adjectiveField" class="input-style bg-pearly-purple " type="text" placeholder="Adjective">
+                </div>
+
+                <div class="flex flex-col items-center my-5">
+                    <h1 class="text-black text-center text-bubble-inner text-bubble">Animal</h1>
+                    <input id="animalField" class="input-style bg-twilight-lavender " type="text" placeholder="Animal">
+                </div>
+                
+
+                <div class="flex flex-col items-center my-5">
+                    <h1 class="text-black text-center text-bubble-inner text-bubble">Item</h1>
+                    <input id="itemField" class="input-style bg-pearly-purple " type="text" placeholder="Item">
+                </div>
+                
+
+                <div class="flex flex-col items-center my-5">
+                    <h1 class="text-black text-center text-bubble-inner text-bubble">Special Move Name</h1>
+                    <input id="specialMoveField" class="input-style bg-twilight-lavender " type="text" placeholder="Special Move">
+                </div>
+                
+
+                <div class="flex flex-col items-center my-5">
+                    <h1 class="text-black text-center text-bubble-inner text-bubble">Number</h1>
+                    <input id="numberField" class="input-style bg-pearly-purple " type="text" placeholder="###">
+                </div>
+                
+
+                <div class="flex flex-col items-center my-5">
+                    <h1 class="text-black text-center text-bubble-inner text-bubble">Unit of Distance</h1>
+                    <input id="distanceField" class="input-style bg-twilight-lavender " type="text" placeholder="Distance">
+                </div>
+                
+                <div class="flex flex-col items-center justify-center my-5 xl:col-start-3 xl:col-end-5">
+                    <button id="generateStoryBtn" class="submit-button-style blue-submit ">Submit</button>
+                </div>
+                
+                <div class="flex flex-col items-center xl:row-start-1 xl:col-start-3 xl:col-end-5 xl:row-span-4 result-story ml-6.5 xl:ml-0">
+                    <p id="storyText" class=" text-sm mx-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi saepe vitae ex molestiae nisi possimus ut dolorem architecto qui totam iste reiciendis voluptate, in et tempora quam incidunt magni veritatis.
+                    Impedit porro odio numquam officia magni non provident sunt illum repellendus exercitationem sed, vel minima, libero quam soluta? Enim, error esse deserunt maxime reiciendis ab necessitatibus exercitationem? Animi, maxime sit.</p>
+                </div>
+
+
+            </section>
+
+            <div class="flex flex-col items-center">
+                <a href="../index.html">
+                    <button id="backToHomeBtn" class="home-btn-style"><img src="../assets/icons/Back To Home.png" alt="Back to home button"></button>
+                </a>
+            </div>
+            
+        </section>
+
+    </main>
+
+    
+    <script src="../scripts/madLib.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+</body>
+</html>

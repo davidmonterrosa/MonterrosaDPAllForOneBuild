@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd Or Even</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+
+</head>
+<body class="bg-darkCharcoal-500 flex justify-center">
+    <main class="bg-black screen-glow rounded-2xl flex justify-center my-8 mx-4 p-6">
+        <section class="bg-oddoralpha rounded-2xl px-3 pt-10 pb-12">
+            <div class="flex justify-center">
+                <div class="oddoreven-heading-area">
+                    <h1 class="text-center text-white font-page-heading mb-8 font-size-title">Odd Or Even</h1>
+                </div>
+            </div>
+            <section class="grid grid-cols-[326px] xl:grid-cols-[repeat(3,300px)] gap-x-32">
+                <div class="flex flex-col items-center">
+                    <h1 class="text-white text-center text-xl">Enter a number below:</h1>
+                    <input id="firstNumberInput" class="input-style bg-moonstone ml-3" type="text" placeholder="First Number">
+                </div>
+                
+                <div class="flex flex-col result-orange items-center ml-6.5">
+                    <p id="resultText" class="text-center">Results Go Here</p>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <button id="submitSumBtn" class="submit-button-style blue-submit">Submit</button>
+                </div>
+
+            </section>
+
+            <div class="flex flex-col items-center">
+                <a href="../index.html">
+                    <button id="backToHomeBtn" class="home-btn-style"><img src="../assets/icons/Back To Home.png" alt="Back to home button"></button>
+                </a>
+            </div>
+            
+        </section>
+
+    </main>
+
+    
+    <script src="../scripts/oddOrEven.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+</body>
+</html>
